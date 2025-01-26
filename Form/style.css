@@ -1,0 +1,26 @@
+.legend {
+    font-weight: bold;
+    display: inline-block; 
+    padding: 0 10px; 
+}
+
+
+form{
+    background-color: rgb(231, 232, 233);
+    border-radius: 1vw;
+    box-shadow: 0 0 1vw 0.5vw rgb(209, 205, 205);
+    width: 20vw;
+    padding: auto;
+}
+
+
+input[type="email"],
+input[type="password"],
+input[type="text"]{
+  width:10vw;
+  height:3vh;
+  border:0.2vw solid slate;
+  padding:0.2vw;
+  border-radius:1vh;
+  padding:0.5vw;
+}
