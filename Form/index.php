@@ -15,12 +15,21 @@
             <div class="section">
             <label for="username">Username: </label> <br>
             <input name="username" placeholder="Enter your username" type="text">
+            <span class="error" id="nameError"><?php echo $nameError;?></span><br><br>
             </div> 
             <br>
 
             <div class="section">
                 <label for="email">Email:</label> <br>
                 <input name="email" placeholder="example@gmail.com" type="email">
+                </div> 
+                <br>
+
+            <div class="section">
+                <label for="age">Age:</label> <br>
+                <input name="number" placeholder="Enter your age:" type="email">
+                <span class="error" id="nameError"><?php echo $nameError;?></span><br><br>
+
                 </div> 
                 <br>
 
